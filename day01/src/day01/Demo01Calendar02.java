@@ -28,7 +28,7 @@ import java.util.Date;
  */
 public class Demo01Calendar02 {
     public static void main(String[] args) {
-        /*//创建Calendar对象
+        /*创建Calendar对象
         Calendar calendar = Calendar.getInstance();
         System.out.println(calendar);*/
 
