@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 public class Demo02ForPlus05 {
 	public static void main(String[] args) {
-        Collection<String> collection = new ArrayList<>();
+        Collection<String> collection =new ArrayList<>();
         collection.add("明步");
         collection.add("海翼");
         collection.add("安住");
