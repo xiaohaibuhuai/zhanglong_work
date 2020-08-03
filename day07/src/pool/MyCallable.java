@@ -4,7 +4,8 @@ import java.util.concurrent.Callable;
 
 public class MyCallable implements Callable<Integer>{
 	int n;
-	public MayCallable(int n){
+	
+	public  MyCallable(int n){
 		this.n = n;
 	}
 	public Integer call() throws Exception{

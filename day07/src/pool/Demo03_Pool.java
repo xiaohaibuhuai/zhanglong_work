@@ -20,7 +20,7 @@ public class Demo03_Pool {
 	public static void main(String[] args) throws ExecutionException, InterruptedException{
 		//获取线程池
 		ExecutorService executorService = Executors.newFixedThreadPool(2);
-		Future<Integer> future = executorService.submit(new Mycallable(100));
+		Future<Integer> future = executorService.submit(new MyCallable(100));
 		System.out.println(future.get());
 		Future<Integer> future1 = executorService.submit(new MyCallable(200));
         System.out.println(future1.get());
